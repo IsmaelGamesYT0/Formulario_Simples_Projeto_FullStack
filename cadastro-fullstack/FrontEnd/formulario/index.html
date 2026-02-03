@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action="#" method="post">
+
+    <h1>Formulário de Cadastro</h1>
+
+    <label for="Nome">Nome:</label>
+    <input type="text" id="Nome" name="Nome" placeholder="Digite seu nome:" required
+
+    <label for="Email">Email:</label>
+    <input type="email" id="Email" name="Email" placeholder="Digite seu email:" required>
+
+    <label for="Telefone">Telefone:</label>
+    <input type="tel" id="Telefone" name="Telefone" placeholder="Digite seu telefone:" required>
+
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" name="idade" 
+    placeholder="Digite sua idade:" required min="18" max="100">
+
+
+    <span id="erroIdade"></span>
+
+    <label for="Senha">Senha:</label>
+    <input type="password" id="Senha" name="Senha" placeholder="Digite sua senha:" required>
+
+    <label for="ConfirmarSenha">Confirmar Senha:</label>
+    <input type="password" id="ConfirmarSenha" name="ConfirmarSenha"
+    placeholder="Confirme sua senha:" required>
+    
+    <span id="erroSenha"></span>
+
+
+    <div>
+      <label for="MostrarSenhas">Mostrar Senhas:</label>
+      <input type="checkbox" id="MostrarSenhas" name="MostrarSenhas">
+    </div>
+
+    <p id="msg" style="display:none; color:rgb(5, 255, 5);">Cadastro realizado com sucesso!</p>
+    
+    <button type="submit">Cadastrar</button>
+
+    </form>
+
+    <footer>
+  <p class="aviso">
+    Não se preocupe, seus dados estão seguros e nenhuma informação será compartilhada.
+  </p>
+
+  <p class="copyright">
+    © 2026 Copyright. Made by Ismael.
+  </p>
+</footer>
+
+    
+
+  <script src="script.js"></script>
+
+</body>
+</html>

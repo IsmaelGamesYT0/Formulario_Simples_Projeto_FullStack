@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #111;
+  background: none;
+  margin-bottom: 10px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #696969;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  text-align: left;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus {
+    border-color: #0063e4;
+    outline: none;
+}
+
+#erroSenha { 
+  font-size: 13px; 
+  color: #ff6b6b; 
+}
+
+#erroIdade { 
+  font-size: 13px; 
+  color: #ff0000; 
+}
+
+label[for="MostrarSenhas"] {
+  font-size: 16px;
+  color: #eee;
+}
+
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #333333;
+}
+
+
+footer {
+  background-color: #303030;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 8px;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+footer .copyright {
+  color: #cfcfcf;
+  font-size: 12px;
+}
