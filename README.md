@@ -44,12 +44,6 @@ Este projeto envia dados de um formulário no navegador para uma API em Java, qu
       <br><br>
       <sub><b>API, serviços e regra de negócio</b></sub>
     </td>
-    <td align="center" width="33%">
-      <h3>🧠 Fundamentals</h3>
-      <img src="https://skillicons.dev/icons?i=c&perline=1" />
-      <br><br>
-      <sub><b>Lógica, memória, mindset, problem solving</b></sub>
-    </td>
   </tr>
 </table>
 
